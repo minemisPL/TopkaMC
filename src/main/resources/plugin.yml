@@ -1,0 +1,12 @@
+name: TopkaMC
+version: ${project.version}
+main: me.minemis.topkamc.TopkaMC
+author: minemis
+api-version: 1.12.2
+commands:
+  topkakills:
+    description: Shows top ten players with highest kill amount
+    usage: /topkakills
+  topkadeaths:
+    description: Shows top ten players with highest death amount
+    usage: /topkadeaths
